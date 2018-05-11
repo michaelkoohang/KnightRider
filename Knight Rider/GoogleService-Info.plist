@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>871984234204-7c7e4hl42h5gg8rv6gak8nol8bigq7i3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.871984234204-7c7e4hl42h5gg8rv6gak8nol8bigq7i3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCnlZdFuQmmXAJ16HVScvJhNxtA2F3hgtw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>871984234204</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mga.Knight-Rider</string>
+	<key>PROJECT_ID</key>
+	<string>ride-sharing-9580b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ride-sharing-9580b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:871984234204:ios:6a4ddccf51af61d7</string>
+	<key>DATABASE_URL</key>
+	<string>https://ride-sharing-9580b.firebaseio.com</string>
+</dict>
+</plist>

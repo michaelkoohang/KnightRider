@@ -7,21 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4995914EDEB0C2D36CE55431 /* Pods_Knight_Rider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB864F0C99AB1D196DF9D062 /* Pods_Knight_Rider.framework */; };
+		4C1C774D20A11C41005C1333 /* AddCarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1C774C20A11C41005C1333 /* AddCarController.swift */; };
+		4C1C774F20A124B8005C1333 /* CarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1C774E20A124B8005C1333 /* CarCell.swift */; };
+		4C37DD6620983A3600C75FDD /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C37DD5A20983A3400C75FDD /* Roboto-Regular.ttf */; };
+		4C37DD6720983A3600C75FDD /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C37DD5B20983A3500C75FDD /* Roboto-Italic.ttf */; };
+		4C37DD6920983A3600C75FDD /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C37DD5D20983A3500C75FDD /* Roboto-Bold.ttf */; };
+		4C37DD732098EE3E00C75FDD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C37DD722098EE3E00C75FDD /* GoogleService-Info.plist */; };
+		4C465C0120460C740077B659 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C465C0020460C740077B659 /* TabBarController.swift */; };
+		4C852206209DEAC00053D66F /* PassengerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C852205209DEAC00053D66F /* PassengerCell.swift */; };
+		4C852208209EB3480053D66F /* ProfileCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C852207209EB3480053D66F /* ProfileCircleView.swift */; };
 		4C8729172033D4A5003B88BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8729162033D4A5003B88BD /* AppDelegate.swift */; };
-		4C8729192033D4A5003B88BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8729182033D4A5003B88BD /* ViewController.swift */; };
-		4C87291F2033D4A5003B88BD /* Knight_Rider.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C87291D2033D4A5003B88BD /* Knight_Rider.xcdatamodeld */; };
 		4C8729212033D4A5003B88BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8729202033D4A5003B88BD /* Assets.xcassets */; };
-		4C8729242033D4A5003B88BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8729222033D4A5003B88BD /* LaunchScreen.storyboard */; };
+		4CB992532044B33600A0DD04 /* RidesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB992522044B33600A0DD04 /* RidesController.swift */; };
+		4CB992552044B34500A0DD04 /* CreateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB992542044B34500A0DD04 /* CreateController.swift */; };
+		4CB992572044B35300A0DD04 /* FindController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB992562044B35300A0DD04 /* FindController.swift */; };
+		4CB992592044B36000A0DD04 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB992582044B36000A0DD04 /* ProfileController.swift */; };
+		4CB9925B2044B43C00A0DD04 /* RegisterControllerStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9925A2044B43C00A0DD04 /* RegisterControllerStart.swift */; };
+		4CB9925D2044B44B00A0DD04 /* RegisterControllerMiddle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9925C2044B44B00A0DD04 /* RegisterControllerMiddle.swift */; };
+		4CB9925F2044B46500A0DD04 /* RegisterControllerEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9925E2044B46500A0DD04 /* RegisterControllerEnd.swift */; };
+		4CB992612044B48200A0DD04 /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB992602044B48200A0DD04 /* MessageController.swift */; };
+		4CB992632044B49200A0DD04 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB992622044B49200A0DD04 /* DetailController.swift */; };
+		4CC354B9203CC29C00F6D8F7 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC354B8203CC29C00F6D8F7 /* LoginController.swift */; };
+		4CC354BB203CF9F500F6D8F7 /* DismissKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC354BA203CF9F500F6D8F7 /* DismissKeyboard.swift */; };
+		4CC52C19208988EB00A60133 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC52C14208988EB00A60133 /* Car.swift */; };
+		4CC52C1A208988EB00A60133 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC52C15208988EB00A60133 /* User.swift */; };
+		4CC52C1B208988EB00A60133 /* Ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC52C16208988EB00A60133 /* Ride.swift */; };
+		4CC52C1C208988EB00A60133 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC52C17208988EB00A60133 /* Message.swift */; };
+		4CC52C1F208988FF00A60133 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC52C1E208988FE00A60133 /* Constants.swift */; };
+		4CE5780320A3E44000874073 /* SpinnerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE5780220A3E44000874073 /* SpinnerExtension.swift */; };
+		4CF07226206AF02300210358 /* RideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF07225206AF02300210358 /* RideCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C1C7747209F9A5F005C1333 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		4C1C774C20A11C41005C1333 /* AddCarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCarController.swift; sourceTree = "<group>"; };
+		4C1C774E20A124B8005C1333 /* CarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCell.swift; sourceTree = "<group>"; };
+		4C37DD5A20983A3400C75FDD /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../../../../../Library/Fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		4C37DD5B20983A3500C75FDD /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		4C37DD5D20983A3500C75FDD /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		4C37DD712098E92B00C75FDD /* Knight Rider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Knight Rider.entitlements"; sourceTree = "<group>"; };
+		4C37DD722098EE3E00C75FDD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4C465C0020460C740077B659 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		4C852205209DEAC00053D66F /* PassengerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerCell.swift; sourceTree = "<group>"; };
+		4C852207209EB3480053D66F /* ProfileCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCircleView.swift; sourceTree = "<group>"; };
 		4C8729132033D4A5003B88BD /* Knight Rider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Knight Rider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8729162033D4A5003B88BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4C8729182033D4A5003B88BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4C87291E2033D4A5003B88BD /* Knight_Rider.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Knight_Rider.xcdatamodel; sourceTree = "<group>"; };
 		4C8729202033D4A5003B88BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4C8729232033D4A5003B88BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C8729252033D4A5003B88BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB992522044B33600A0DD04 /* RidesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidesController.swift; sourceTree = "<group>"; };
+		4CB992542044B34500A0DD04 /* CreateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateController.swift; sourceTree = "<group>"; };
+		4CB992562044B35300A0DD04 /* FindController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindController.swift; sourceTree = "<group>"; };
+		4CB992582044B36000A0DD04 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		4CB9925A2044B43C00A0DD04 /* RegisterControllerStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterControllerStart.swift; sourceTree = "<group>"; };
+		4CB9925C2044B44B00A0DD04 /* RegisterControllerMiddle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterControllerMiddle.swift; sourceTree = "<group>"; };
+		4CB9925E2044B46500A0DD04 /* RegisterControllerEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterControllerEnd.swift; sourceTree = "<group>"; };
+		4CB992602044B48200A0DD04 /* MessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
+		4CB992622044B49200A0DD04 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		4CC354B8203CC29C00F6D8F7 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		4CC354BA203CF9F500F6D8F7 /* DismissKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissKeyboard.swift; sourceTree = "<group>"; };
+		4CC52C14208988EB00A60133 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		4CC52C15208988EB00A60133 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4CC52C16208988EB00A60133 /* Ride.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ride.swift; sourceTree = "<group>"; };
+		4CC52C17208988EB00A60133 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		4CC52C1E208988FE00A60133 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4CE5780220A3E44000874073 /* SpinnerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerExtension.swift; sourceTree = "<group>"; };
+		4CF07225206AF02300210358 /* RideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideCell.swift; sourceTree = "<group>"; };
+		A17FB214285F312D8E0B2872 /* Pods-Knight Rider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Knight Rider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Knight Rider/Pods-Knight Rider.debug.xcconfig"; sourceTree = "<group>"; };
+		CB864F0C99AB1D196DF9D062 /* Pods_Knight_Rider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Knight_Rider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2A8CC8C2A66FB76A770C07 /* Pods-Knight Rider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Knight Rider.release.xcconfig"; path = "Pods/Target Support Files/Pods-Knight Rider/Pods-Knight Rider.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +83,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4995914EDEB0C2D36CE55431 /* Pods_Knight_Rider.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		447CA1D79621D321C010CFED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A17FB214285F312D8E0B2872 /* Pods-Knight Rider.debug.xcconfig */,
+				EA2A8CC8C2A66FB76A770C07 /* Pods-Knight Rider.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4C87290A2033D4A4003B88BD = {
 			isa = PBXGroup;
 			children = (
 				4C8729152033D4A5003B88BD /* Knight Rider */,
 				4C8729142033D4A5003B88BD /* Products */,
+				447CA1D79621D321C010CFED /* Pods */,
+				C7B6D6981CB6F8E85049F4E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +120,80 @@
 		4C8729152033D4A5003B88BD /* Knight Rider */ = {
 			isa = PBXGroup;
 			children = (
+				4C37DD712098E92B00C75FDD /* Knight Rider.entitlements */,
+				4CC52C0F2087873A00A60133 /* Model */,
+				4CC52C102087877300A60133 /* View */,
+				4CB992472044B29A00A0DD04 /* Controller */,
+				4CC52C112087878F00A60133 /* Resources */,
 				4C8729162033D4A5003B88BD /* AppDelegate.swift */,
-				4C8729182033D4A5003B88BD /* ViewController.swift */,
+				4C1C7747209F9A5F005C1333 /* Bridging-Header.h */,
 				4C8729202033D4A5003B88BD /* Assets.xcassets */,
-				4C8729222033D4A5003B88BD /* LaunchScreen.storyboard */,
 				4C8729252033D4A5003B88BD /* Info.plist */,
-				4C87291D2033D4A5003B88BD /* Knight_Rider.xcdatamodeld */,
+				4C37DD722098EE3E00C75FDD /* GoogleService-Info.plist */,
 			);
 			path = "Knight Rider";
+			sourceTree = "<group>";
+		};
+		4CB992472044B29A00A0DD04 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CC354B8203CC29C00F6D8F7 /* LoginController.swift */,
+				4CB9925A2044B43C00A0DD04 /* RegisterControllerStart.swift */,
+				4CB9925C2044B44B00A0DD04 /* RegisterControllerMiddle.swift */,
+				4CB9925E2044B46500A0DD04 /* RegisterControllerEnd.swift */,
+				4C465C0020460C740077B659 /* TabBarController.swift */,
+				4CB992522044B33600A0DD04 /* RidesController.swift */,
+				4CB992542044B34500A0DD04 /* CreateController.swift */,
+				4CB992562044B35300A0DD04 /* FindController.swift */,
+				4CB992582044B36000A0DD04 /* ProfileController.swift */,
+				4C1C774C20A11C41005C1333 /* AddCarController.swift */,
+				4CB992602044B48200A0DD04 /* MessageController.swift */,
+				4CB992622044B49200A0DD04 /* DetailController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4CC52C0F2087873A00A60133 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CC52C14208988EB00A60133 /* Car.swift */,
+				4CC52C17208988EB00A60133 /* Message.swift */,
+				4CC52C16208988EB00A60133 /* Ride.swift */,
+				4CC52C15208988EB00A60133 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4CC52C102087877300A60133 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C852207209EB3480053D66F /* ProfileCircleView.swift */,
+				4CF07225206AF02300210358 /* RideCell.swift */,
+				4C852205209DEAC00053D66F /* PassengerCell.swift */,
+				4C1C774E20A124B8005C1333 /* CarCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4CC52C112087878F00A60133 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C37DD5D20983A3500C75FDD /* Roboto-Bold.ttf */,
+				4C37DD5B20983A3500C75FDD /* Roboto-Italic.ttf */,
+				4C37DD5A20983A3400C75FDD /* Roboto-Regular.ttf */,
+				4CC52C1E208988FE00A60133 /* Constants.swift */,
+				4CC354BA203CF9F500F6D8F7 /* DismissKeyboard.swift */,
+				4CE5780220A3E44000874073 /* SpinnerExtension.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C7B6D6981CB6F8E85049F4E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB864F0C99AB1D196DF9D062 /* Pods_Knight_Rider.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C8729282033D4A5003B88BD /* Build configuration list for PBXNativeTarget "Knight Rider" */;
 			buildPhases = (
+				B934433652B0BB596363F5EA /* [CP] Check Pods Manifest.lock */,
 				4C87290F2033D4A5003B88BD /* Sources */,
 				4C8729102033D4A5003B88BD /* Frameworks */,
 				4C8729112033D4A5003B88BD /* Resources */,
+				2171E8E61BD8F804A81D8357 /* [CP] Embed Pods Frameworks */,
+				70AEB877B52297C7BA1F07D8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,12 +226,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = MGA;
 				TargetAttributes = {
 					4C8729122033D4A5003B88BD = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,36 +263,122 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C8729242033D4A5003B88BD /* LaunchScreen.storyboard in Resources */,
+				4C37DD732098EE3E00C75FDD /* GoogleService-Info.plist in Resources */,
+				4C37DD6720983A3600C75FDD /* Roboto-Italic.ttf in Resources */,
 				4C8729212033D4A5003B88BD /* Assets.xcassets in Resources */,
+				4C37DD6920983A3600C75FDD /* Roboto-Bold.ttf in Resources */,
+				4C37DD6620983A3600C75FDD /* Roboto-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2171E8E61BD8F804A81D8357 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Knight Rider/Pods-Knight Rider-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Knight Rider/Pods-Knight Rider-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70AEB877B52297C7BA1F07D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Knight Rider/Pods-Knight Rider-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Knight Rider/Pods-Knight Rider-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B934433652B0BB596363F5EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Knight Rider-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4C87290F2033D4A5003B88BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C87291F2033D4A5003B88BD /* Knight_Rider.xcdatamodeld in Sources */,
-				4C8729192033D4A5003B88BD /* ViewController.swift in Sources */,
+				4CC354BB203CF9F500F6D8F7 /* DismissKeyboard.swift in Sources */,
+				4CC354B9203CC29C00F6D8F7 /* LoginController.swift in Sources */,
+				4CB9925B2044B43C00A0DD04 /* RegisterControllerStart.swift in Sources */,
+				4CB992532044B33600A0DD04 /* RidesController.swift in Sources */,
+				4CB9925D2044B44B00A0DD04 /* RegisterControllerMiddle.swift in Sources */,
+				4CC52C1B208988EB00A60133 /* Ride.swift in Sources */,
+				4CC52C1C208988EB00A60133 /* Message.swift in Sources */,
+				4CB992592044B36000A0DD04 /* ProfileController.swift in Sources */,
+				4CC52C1A208988EB00A60133 /* User.swift in Sources */,
+				4CB992612044B48200A0DD04 /* MessageController.swift in Sources */,
+				4C852208209EB3480053D66F /* ProfileCircleView.swift in Sources */,
+				4CB992632044B49200A0DD04 /* DetailController.swift in Sources */,
+				4C1C774F20A124B8005C1333 /* CarCell.swift in Sources */,
+				4CE5780320A3E44000874073 /* SpinnerExtension.swift in Sources */,
+				4CB9925F2044B46500A0DD04 /* RegisterControllerEnd.swift in Sources */,
+				4CC52C19208988EB00A60133 /* Car.swift in Sources */,
+				4C852206209DEAC00053D66F /* PassengerCell.swift in Sources */,
+				4CB992552044B34500A0DD04 /* CreateController.swift in Sources */,
+				4C1C774D20A11C41005C1333 /* AddCarController.swift in Sources */,
+				4CC52C1F208988FF00A60133 /* Constants.swift in Sources */,
+				4C465C0120460C740077B659 /* TabBarController.swift in Sources */,
+				4CB992572044B35300A0DD04 /* FindController.swift in Sources */,
+				4CF07226206AF02300210358 /* RideCell.swift in Sources */,
 				4C8729172033D4A5003B88BD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		4C8729222033D4A5003B88BD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C8729232033D4A5003B88BD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4C8729262033D4A5003B88BD /* Debug */ = {
@@ -169,6 +395,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -176,6 +403,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -208,6 +436,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -226,6 +455,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -233,6 +463,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -257,6 +488,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -264,14 +496,18 @@
 		};
 		4C8729292033D4A5003B88BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A17FB214285F312D8E0B2872 /* Pods-Knight Rider.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Knight Rider/Knight Rider.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U5U679E9H7;
 				INFOPLIST_FILE = "Knight Rider/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.MGA.Knight-Rider";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mga.Knight-Rider";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Knight Rider/Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -279,14 +515,18 @@
 		};
 		4C87292A2033D4A5003B88BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA2A8CC8C2A66FB76A770C07 /* Pods-Knight Rider.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Knight Rider/Knight Rider.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U5U679E9H7;
 				INFOPLIST_FILE = "Knight Rider/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.MGA.Knight-Rider";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mga.Knight-Rider";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Knight Rider/Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -314,19 +554,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		4C87291D2033D4A5003B88BD /* Knight_Rider.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4C87291E2033D4A5003B88BD /* Knight_Rider.xcdatamodel */,
-			);
-			currentVersion = 4C87291E2033D4A5003B88BD /* Knight_Rider.xcdatamodel */;
-			path = Knight_Rider.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 4C87290B2033D4A4003B88BD /* Project object */;
 }
