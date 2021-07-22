@@ -10,7 +10,6 @@
 		4995914EDEB0C2D36CE55431 /* Pods_Knight_Rider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB864F0C99AB1D196DF9D062 /* Pods_Knight_Rider.framework */; };
 		4C1C774D20A11C41005C1333 /* AddCarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1C774C20A11C41005C1333 /* AddCarController.swift */; };
 		4C1C774F20A124B8005C1333 /* CarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1C774E20A124B8005C1333 /* CarCell.swift */; };
-		4C37DD6620983A3600C75FDD /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C37DD5A20983A3400C75FDD /* Roboto-Regular.ttf */; };
 		4C37DD6720983A3600C75FDD /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C37DD5B20983A3500C75FDD /* Roboto-Italic.ttf */; };
 		4C37DD6920983A3600C75FDD /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C37DD5D20983A3500C75FDD /* Roboto-Bold.ttf */; };
 		4C37DD732098EE3E00C75FDD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C37DD722098EE3E00C75FDD /* GoogleService-Info.plist */; };
@@ -43,7 +42,6 @@
 		4C1C7747209F9A5F005C1333 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		4C1C774C20A11C41005C1333 /* AddCarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCarController.swift; sourceTree = "<group>"; };
 		4C1C774E20A124B8005C1333 /* CarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCell.swift; sourceTree = "<group>"; };
-		4C37DD5A20983A3400C75FDD /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../../../../../Library/Fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		4C37DD5B20983A3500C75FDD /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
 		4C37DD5D20983A3500C75FDD /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		4C37DD712098E92B00C75FDD /* Knight Rider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Knight Rider.entitlements"; sourceTree = "<group>"; };
@@ -180,7 +178,6 @@
 			children = (
 				4C37DD5D20983A3500C75FDD /* Roboto-Bold.ttf */,
 				4C37DD5B20983A3500C75FDD /* Roboto-Italic.ttf */,
-				4C37DD5A20983A3400C75FDD /* Roboto-Regular.ttf */,
 				4CC52C1E208988FE00A60133 /* Constants.swift */,
 				4CC354BA203CF9F500F6D8F7 /* DismissKeyboard.swift */,
 				4CE5780220A3E44000874073 /* SpinnerExtension.swift */,
@@ -267,7 +264,6 @@
 				4C37DD6720983A3600C75FDD /* Roboto-Italic.ttf in Resources */,
 				4C8729212033D4A5003B88BD /* Assets.xcassets in Resources */,
 				4C37DD6920983A3600C75FDD /* Roboto-Bold.ttf in Resources */,
-				4C37DD6620983A3600C75FDD /* Roboto-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
