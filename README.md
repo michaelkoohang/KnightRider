@@ -20,9 +20,6 @@ Knight Rider allows university students to sign up for a profile using their sch
 * [UIKit](https://developer.apple.com/documentation/swiftui)
 * [MapKit](https://developer.apple.com/documentation/mapkit)
 * [Core Location](https://developer.apple.com/documentation/corelocation)
-
-## Acknowledgements
-
 * [Alamofire](https://github.com/Alamofire/Alamofire)
 * [Firebase](https://firebase.google.com/)
 * [Google Maps](https://developers.google.com/maps)
